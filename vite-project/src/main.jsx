@@ -1,0 +1,21 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+// Import Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Import Bootstrap JS (Optional: Only if using Bootstrap components like modals, tooltips, etc.)
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+// Import Bootstrap Icons CSS
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
