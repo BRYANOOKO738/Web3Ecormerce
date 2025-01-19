@@ -67,7 +67,7 @@ const Product = ({item,provider, account,contract, togglePop}) => {
     fetchDetails()
   }, [hasBought])
   return (
-    <div className="product bg-light m-5 rounded w-100" >
+    <div className="product bg-light m-md-5 rounded w-100" >
       <div className="product__details">
         <div className="product__image">
           <img src={item.image} alt="Product" />
