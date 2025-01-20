@@ -101,7 +101,7 @@ const Navbar = ({ account, setAccount }) => {
             </nav>
 
             {/* Secondary Navigation Bar */}
-            <nav className="navbar navbar-expand bg-dark-subtle navbar-dark py-2 shadow-sm">
+            <nav className="navbar navbar-expand bg-dark-subtle navbar-dark py-2 shadow-sm below">
                 <div className="container">
                     <div className="navbar-collapse">
                         <ul className="navbar-nav mx-auto">
